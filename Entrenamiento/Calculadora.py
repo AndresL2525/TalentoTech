@@ -1,4 +1,4 @@
-# importamos libreria
+# importamos librerias
 import math
 
 
@@ -40,7 +40,7 @@ def ingresa_datos():
         "tangente",
         "tan",
     ]:
-        print(f"¿Quieres calcular el/la {option} de 1 o 2 angulos")
+        print(f"¿Quieres calcular el/la {option} de 1 o 2 angulos?")
         num_angulos = int(
             input("Escoga la cantida de angulos que quiere que se le calcule (1 o 2) ")
         )
