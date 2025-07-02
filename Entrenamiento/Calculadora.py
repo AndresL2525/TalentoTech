@@ -106,19 +106,19 @@ def calcular_tangente(angulo_rad):
 
 def procesar_y_mostrar_operacion(option, numero_uno, numero_dos):
 
-    if option == "1" or option == "+" or option == "Sumar":
+    if option == "1" or option == "+" or option == "sumar":
         print("Vamos a sumar(+) los dos valores ingresados:")
         resultado = calcular_suma(numero_uno, numero_dos)
         print("La suma es:", resultado)
-    elif option == "2" or option == "-" or option == "Restar":
+    elif option == "2" or option == "-" or option == "restar":
         print("Vamos a restar(-) los dos valores ingresados:\n")
         resultado = calcular_resta(numero_uno, numero_dos)
         print("Resultado=", resultado)
-    elif option == "3" or option == "*" or option == "Multiplicar":
+    elif option == "3" or option == "*" or option == "multiplicar":
         print("Vamos a multiplicar(*) los dos valores ingresados:\n")
         resultado = calcular_multiplicacion(numero_uno, numero_dos)
         print("Resultado=", resultado)
-    elif option == "4" or option == "/" or option == "Dividir":
+    elif option == "4" or option == "/" or option == "dividir":
         print("Vamos a dividir(/) los dos valores ingresados:\n")
         # VALIDANDO EL DENOMINADOR (debe ser diferente de cero)
         if numero_dos != 0:
